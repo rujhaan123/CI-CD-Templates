@@ -1,4 +1,5 @@
-Application Build/CI Components
+Application Build/CI Components for dotnet app
+
 - git clone
 - restore dependencies
 - build app
