@@ -15,7 +15,7 @@ Application Release/CD Components for dotnet app
 - download artifacts
 - create infra  
    scan infra, deploy infra (arm,terraform), scan cloud resources
-- deploy apps
+- deploy apps  
    web app, db
 - run tests (integration/UI (Selenium)
 - deploy to dev/int/prod
