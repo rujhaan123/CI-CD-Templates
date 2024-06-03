@@ -1,5 +1,5 @@
-Application Build/CI Components for dotnet app
-
+## Dot Net CI/CD
+CI
 - git clone
 - restore dependencies
 - build app
@@ -9,9 +9,8 @@ Application Build/CI Components for dotnet app
 - build DB
 - build UI/integration tests
 - upload artifacts
-
-Application Release/CD Components for dotnet app
-
+  
+CD
 - download artifacts
 - create infra  
    scan infra, deploy infra (arm,terraform), scan cloud resources
@@ -19,4 +18,23 @@ Application Release/CD Components for dotnet app
    web app, db
 - run tests (integration/UI (Selenium)
 - deploy to dev/int/prod
+
+## Container CI/CD
+CI
+- docker build
+- docker tag
+- docker login ACR
+- docker push
+- scan image
+- scan Dockerfile, manifests, helm
+- run unit tests
+
+Release
+
+- az login (SPN)
+- az aks get credential
+- kubectl apply -f yaml/ heml apply
+- scan cluster config
+- -secrets in keyvault
+- run integration tests
 
