@@ -38,3 +38,8 @@ Release
 - -secrets in keyvault
 - run integration tests
 
+## MlOps CI/CD
+CI
+- specify agent - use python version
+  
+
